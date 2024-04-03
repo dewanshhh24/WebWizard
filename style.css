@@ -1,0 +1,92 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+   
+   
+    background-image: url(https://img.freepik.com/premium-photo/halloween-banner-halloween-style-eerie-landscapes-dark-violet-traditional_577115-20187.jpg?w=1060);
+}
+.login-box{
+    height: 40vh;
+    width: 25vw;
+    background-color: #b350a7b9;
+    /* opacity: 0.7; */
+    padding: 10px;
+    position: relative;
+    border-radius: 10px;
+    justify-items: center;
+    
+}
+.container{
+    height: 100vh;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   
+   /* padding: 40px; */
+}
+.username{
+position: absolute;
+top: 40px;
+align-self: center;
+width: 90%;
+height: 20%;
+background-color: white;
+border-radius: 5px;
+padding-left: 15px;
+display: flex;
+align-items: center;
+font-weight: 700;
+opacity: 0.7;
+}
+.password{
+    position: absolute;
+top: 70px;
+align-self: center;
+width: 90%;
+height: 20%;
+background-color: white;
+margin-top:50px;
+border-radius: 5px;
+padding-left: 15px;
+display: flex;
+align-items: center;
+font-weight: 700;
+opacity: 0.7;
+
+}
+.login-btn{
+    position: absolute;
+    bottom: 20px;
+    align-self: center;
+   width: 90%;
+   border-radius: 10px;
+   border: none;
+   padding: 7px;
+   cursor: pointer;
+   opacity: 0.9;
+   font-weight: 700;
+}
+.login-txt{
+  margin: 0px;
+  text-align: center;
+  font-size: x-large;
+  font-weight: 700;
+  color: aliceblue;
+}
+div input{
+    width: 80%;
+    border: none;
+    outline: none;
+}
+input::placeholder {
+    color: #999; /* Adjust color to your preference */
+    font-weight: 700; /* You can't make it bold, but you can make it appear bold */
+    
+  }
+  .login-btn:hover{
+    opacity: 1;
+  }
+  .login-btn:active{
+    scale: 1.01;
+  }
